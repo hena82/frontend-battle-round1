@@ -7,7 +7,7 @@
 
 Team: Solo Submission
 
-Team Member: Hena Patel
+Developed By: Hena Patel
 
 Version: 1.0 (June 2025)
 
