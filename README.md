@@ -13,12 +13,6 @@ Version: 1.0 (June 2025)
 
 ---
 
-![Mountain Explorer Demo](https://github.com/henaviralpatel/frontend-battle-round1/assets/demo-image.jpg)
-
-![Light/Dark Toggle](https://github.com/henaviralpatel/frontend-battle-round1/assets/darkmode-toggle.jpg)
-
----
-
 ## Overview
 
 **Mountain Explorer** is a responsive, clean, and interactive web page designed for the Unstop **Frontend Battle Round 1**. It showcases a fictional travel landing page with sections like hero, features, gallery, testimonials, FAQ, and contact.
