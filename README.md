@@ -34,7 +34,7 @@ All core frontend concepts were used: layout with **Flexbox/Grid**, **theme togg
 ---
 
 ## Project Structure
-
+```
 Frontend_Battle/
 ├── index.html     # Main HTML file
 ├── style.css      # All styling (light/dark mode, responsiveness, etc.)
@@ -43,6 +43,8 @@ Frontend_Battle/
     ├── loader.mp4     # Custom loader video
     ├── gallery-1.png  # Gallery image 1
     ├── gallery-2.png  # Gallery image 2
+```
+
 ---
 
 ## Key Sections
