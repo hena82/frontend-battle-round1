@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mountain Explorer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <video autoplay muted loop id="loader-video">
+      <source src="assets/loader.mp4" type="video/mp4" />
+    </video>
+    <p>Loading your adventure...</p>
+  </div>
+
+  <!-- Toggle Button -->
+  <button id="modeToggle" aria-label="Toggle Theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Mountain<span>Explorer</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="hero-text">
+      <h1>Escape to the Mountains</h1>
+      <p>Find peace, adventure, and breathtaking views on your next getaway.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We curate unforgettable mountain journeys for explorers, hikers, and nature lovers.</p>
+    <p>From sunrise hikes to adrenaline-filled expeditions, we bring nature closer to you.</p>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <h2>Our Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon"><i class="fas fa-mountain"></i></div>
+        <h3>Expert Guides</h3>
+        <p>Our guides know the trails inside out.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fas fa-fire"></i></div>
+        <h3>Campfire Nights</h3>
+        <p>Enjoy warm, starry evenings by the fire.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fas fa-globe"></i></div>
+        <h3>Worldwide Tours</h3>
+        <p>From the Alps to the Andes — your choice!</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fas fa-heart"></i></div>
+        <h3>Traveler Care</h3>
+        <p>We provide 24/7 support and safety guidance.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fas fa-cogs"></i></div>
+        <h3>Custom Trips</h3>
+        <p>You choose the pace, place, and plan.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fas fa-star"></i></div>
+        <h3>5-Star Rated</h3>
+        <p>Loved by thousands of explorers worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="assets/gallery-1.png" alt="Mountain View 1">
+      <img src="assets/gallery-2.png" alt="Mountain View 2">
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <blockquote>
+      "Every second on that trail felt like magic!"
+      <footer>- Jenna L.</footer>
+    </blockquote>
+    <blockquote>
+      "Amazing service and views! 10/10 recommend."
+      <footer>- Rakesh D.</footer>
+    </blockquote>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>Q:</strong> Do I need to be experienced?</p>
+    <p><strong>A:</strong> No, we offer beginner to advanced treks.</p>
+    <p><strong>Q:</strong> What do I need to bring?</p>
+    <p><strong>A:</strong> We'll send a checklist before your trip!</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mountain Explorer. Crafted with love for adventure.</p>
+  </footer>
+</body>
+</html>
