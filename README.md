@@ -58,3 +58,10 @@ Frontend_Battle/
 - 🌗 **Dark/Light mode** toggle with moon/sun icon
 - 🎞️ **Loader** shown for 3 seconds before site loads
 
+---
+
+## Live Demo
+
+https://hena82.github.io/frontend-battle-round1/
+
+---
